@@ -17,7 +17,7 @@ def main():
     print("TRAINING.............\n")
     fit_models(input_train, output_train)
     print("")
-    print("TRAINING.............\n")
+    print("TESTING.............\n")
     fit_models(input_test, output_test)
 
 def fit_models(input, output):

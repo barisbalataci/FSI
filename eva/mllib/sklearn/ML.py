@@ -59,7 +59,7 @@ class Regressor_Sklearn:
         return model
 
     def multi_layer_perceptron(self, input, output):
-        model = MLPRegressor(hidden_layer_sizes=(15, 15), alpha=.001, activation='relu', solver='lbfgs')
+        model = MLPRegressor(hidden_layer_sizes=(13,13), alpha=.001, activation='relu', solver='lbfgs')
         model.fit(input, output)
         return model
 
